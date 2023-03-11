@@ -1,12 +1,12 @@
 package main;
-import javax.swing.JFrame;
 
+import javax.swing.JFrame;
 
 public class GameWindow {
 	private JFrame jframe;
-	
+
 	public GameWindow(GamePanel gamePanel) {
-		
+
 		jframe = new JFrame();
 
 		jframe.setSize(400, 400);
@@ -14,5 +14,7 @@ public class GameWindow {
 		jframe.add(gamePanel);
 		jframe.setLocationRelativeTo(null);
 		jframe.setVisible(true);
+
 	}
+
 }
